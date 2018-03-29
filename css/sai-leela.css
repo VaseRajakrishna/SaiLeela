@@ -274,6 +274,12 @@ form.sl-search::after {
     }
 }
 
+@media (max-width:600px) {
+    .pnl-img img {
+        max-width: 250px;
+    }
+}
+
 @media (max-width: 767px) {
     .sr-ctnr {
         padding-top: 10px;
@@ -295,11 +301,5 @@ form.sl-search::after {
         height: 35px;
         line-height: 35px;
         font-size: 20px;
-    }
-}
-
-@media (max-width:600px) {
-    .pnl-img img {
-        max-width: 250px;
     }
 }
