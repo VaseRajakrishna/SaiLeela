@@ -73,22 +73,3 @@
 .ion-android-mail::before {
     content: "\f2eb";
 }
-
-.sr-icon {
-    width: 50px;
-    height: 40px;
-    color: #282828;
-    line-height: 40px;
-    font-size: 22px;
-    border-radius: 2px;
-    margin-right: 5px;
-    transition: all .20s ease-in-out;
-    border: 0;
-    outline: none;
-}
-
-.sr-icon:hover {
-    border-radius: 2px;
-    color: white;
-    background: #ff5733;
-}
