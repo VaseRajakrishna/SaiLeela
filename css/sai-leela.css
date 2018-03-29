@@ -297,3 +297,9 @@ form.sl-search::after {
         font-size: 20px;
     }
 }
+
+@media (max-width:600px) {
+    .pnl-img img {
+        max-width: 250px;
+    }
+}
