@@ -1,0 +1,94 @@
+.ion,
+.ionicons,
+.ion-social-facebook:before,
+.ion-social-linkedin:before,
+.ion-social-googleplus-outline:before,
+.ion-social-pinterest:before,
+.ion-social-github:before,
+.ion-social-twitter:before,
+.ion-ios-color-wand:before,
+.ion-social-html5:before,
+.ion-android-bulb:before,
+.ion-chevron-down:before,
+.ion-android-share-alt,
+.ion-social-pinterest,
+.ion-android-mail {
+    display: inline-block;
+    font-family: "Ionicons";
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    text-rendering: auto;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.ion-social-facebook:before {
+    content: "\f231";
+}
+
+.ion-android-bulb:before {
+    content: "\f36c";
+}
+
+.ion-social-linkedin:before {
+    content: "\f239";
+}
+
+.ion-social-twitter:before {
+    content: "\f243";
+}
+
+.ion-social-github:before {
+    content: "\f233";
+}
+
+.ion-social-html5:before {
+    content: "\f4e3";
+}
+
+.ion-ios-color-wand:before {
+    content: "\f416";
+}
+
+.ion-social-googleplus:before {
+    content: "\f235";
+}
+
+.ion-chevron-down:before {
+    content: "\f123";
+}
+
+.ion-android-share-alt::before {
+    content: "\f3ac";
+}
+
+.ion-social-pinterest::before {
+    content: "\f2b1";
+}
+
+.ion-android-mail::before {
+    content: "\f2eb";
+}
+
+.sr-icon {
+    width: 50px;
+    height: 40px;
+    color: #282828;
+    line-height: 40px;
+    font-size: 22px;
+    border-radius: 2px;
+    margin-right: 5px;
+    transition: all .20s ease-in-out;
+    border: 0;
+    outline: none;
+}
+
+.sr-icon:hover {
+    border-radius: 2px;
+    color: white;
+    background: #ff5733;
+}
