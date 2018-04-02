@@ -1,0 +1,24 @@
+var slPageY, slBodyTop;
+$(document).ready(function() {
+    $("#go-up").on("click", goUp)
+});
+
+$(window).resize(function() {
+
+});
+
+$(document).scroll(function() {
+    slPageY = scrollY;
+    slBodyTop = $(".sl-body-ctnr").offset().top;
+    if (slPageY >= slBodyTop) {
+        $("#go-up").addClass("show");
+    } else {
+        $("#go-up").removeClass("show");
+    }
+});
+
+function goUp() {
+    $("html,body").animate({
+        scrollTop: 0
+    }, 300);
+}

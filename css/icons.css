@@ -10,9 +10,10 @@
 .ion-social-html5:before,
 .ion-android-bulb:before,
 .ion-chevron-down:before,
-.ion-android-share-alt,
-.ion-social-pinterest,
-.ion-android-mail {
+.ion-android-share-alt:before,
+.ion-social-pinterest:before,
+.ion-android-mail:before,
+.ion-ios-arrow-up:before {
     display: inline-block;
     font-family: "Ionicons";
     speak: none;
@@ -72,4 +73,8 @@
 
 .ion-android-mail::before {
     content: "\f2eb";
+}
+
+.ion-ios-arrow-up:before {
+    content: "\f3d8";
 }
