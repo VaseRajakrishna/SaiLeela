@@ -4,7 +4,7 @@
 }
 
 body {
-    font-family: 'Lato';
+    font-family: 'Oxygen';
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 1px;
@@ -19,7 +19,7 @@ h1,
 h2 {
     margin-top: 12px;
     margin-bottom: 12px;
-    font-family: 'AnticSlab-Regular';
+    font-family: 'AnticSlab';
 }
 
 h3 {}
@@ -63,7 +63,7 @@ h3 {}
 }
 
 .nav>li>a {
-    font-family: AnticSlab-Regular;
+    font-family: AnticSlab;
     color: white;
     font-size: 18px;
 }
@@ -177,6 +177,11 @@ form.sl-search::after {
     padding-top: 15px;
     padding-bottom: 15px;
     background-color: skyblue;
+    background-image: url(../pics/body-bg2.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .sl-header:before,
@@ -219,13 +224,15 @@ form.sl-search::after {
     text-transform: uppercase;
     background: linear-gradient(to bottom right, white, #ff5733);
     margin-bottom: 10px;
-    margin-left: 16px;
+    margin-left: 15px;
     border-radius: 2px;
 }
 
 .sl-heading {
-    background: #f9b708;
-    color: #230e02;
+    /* background: #f9b708; */
+    background: #ec3b90;
+    /*  color: #230e02; */
+    color: white;
     font-size: 18px;
 }
 
@@ -242,7 +249,7 @@ form.sl-search::after {
     outline: none;
     border: none;
     transition: all .15s ease-in-out;
-    font-family: AnticSlab-Regular;
+    font-family: AnticSlab;
     letter-spacing: 1px;
 }
 
@@ -250,7 +257,7 @@ form.sl-search::after {
     font-size: 18px;
     padding: 15px 15px;
     border-radius: 0px;
-    color: #af3800;
+    color: #ed3b90;
     background: white;
     border: 2px solid;
     text-shadow: 0px 0px 0px;
@@ -258,7 +265,7 @@ form.sl-search::after {
 
 .more-info:hover {
     text-shadow: none;
-    background: #ff5733;
+    background: #ed3b90;
     color: white;
 }
 
@@ -269,6 +276,26 @@ form.sl-search::after {
 
 .pnl-img img {
     max-width: 300px;
+}
+
+.lts-body {
+    width: 98%;
+    marker: auto;
+    text-align: center;
+}
+
+.table>tbody>tr>td {
+    border-top: 1px solid #ed3b90;
+}
+
+tr:last-child {
+    border-bottom: 1px solid #ed3b90;
+}
+
+.sh-td {
+    color: #ed3b90;
+    font-family: AnticSlab;
+    text-shadow: 0px 0px 0px;
 }
 
 @media (min-width: 767px) {
