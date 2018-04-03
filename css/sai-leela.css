@@ -4,10 +4,13 @@
         }
         
         body {
-            font-family: 'Oxygen';
-            font-size: 16px;
+            font-family: 'Philosopher', sans-serif;
+            font-size: 18px;
             line-height: 1.5;
             letter-spacing: 1px;
+            font-weight: 500;
+            /*  only text-shadow for Philosopher font */
+            text-shadow: 0px 0px 0px;
         }
         
         p {}
@@ -121,9 +124,15 @@
         
         .sl-slider-ctnr {
             width: 100%;
-            min-height: 350px;
-            background: #ff5733;
+            height: auto;
             background: linear-gradient(to bottom right, white, #ff5733);
+        }
+        
+        .sl-slider-ctnr img {
+            width: 100%;
+            max-height: 570px;
+            object-position: center;
+            object-fit: cover;
         }
         
         .sr-icon {
@@ -471,6 +480,7 @@
                 height: 35px;
                 line-height: 35px;
                 font-size: 20px;
+                margin-right: 2px;
             }
         }
         
