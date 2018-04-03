@@ -1,7 +1,9 @@
 var slPageY, slBodyTop;
 $(document).ready(function() {
     $("#go-up").on("click", goUp)
+    latestNewsShow();
 });
+
 
 $(window).resize(function() {
 
@@ -21,4 +23,8 @@ function goUp() {
     $("html,body").animate({
         scrollTop: 0
     }, 300);
+}
+
+function latestNewsShow() {
+    $('#latest-news').modal('show')
 }
