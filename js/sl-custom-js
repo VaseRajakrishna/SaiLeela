@@ -1,13 +1,22 @@
-var slPageY, slBodyTop;
+/* Gobal Varibles */
+
+var slPageY, slBodyTop, slideBanner = 1;
+
+/* When Page Load run all functions */
+
 $(document).ready(function() {
     $("#go-up").on("click", goUp)
     latestNewsShow();
+    slideShow();
 });
 
+/* When Page resize run all functions */
 
 $(window).resize(function() {
 
 });
+
+/* When Page Scroll run all functions */
 
 $(document).scroll(function() {
     slPageY = scrollY;
@@ -19,6 +28,8 @@ $(document).scroll(function() {
     }
 });
 
+/* SaiLeelas Functions */
+
 function goUp() {
     $("html,body").animate({
         scrollTop: 0
@@ -27,4 +38,21 @@ function goUp() {
 
 function latestNewsShow() {
     $('#latest-news').modal('show')
+}
+
+// function slideShow() {
+//     setInterval(function() {
+//         $('.sl-slider-ctnr').fadeIn();
+//         slideBanner++;
+//         if (slideBanner >= 4) {
+//             slideBanner = 1;
+//         }
+//         $('.sl-slider-ctnr').find('img').attr("src", "pics/saiLeela-banner -" +
+//             slideBanner + ".png").fadeTo("slow");
+//         /* console.log(slideBanner); */
+//     }, 3000)
+// }
+
+function slideShow() {
+    $('#fade').cycle();
 }
